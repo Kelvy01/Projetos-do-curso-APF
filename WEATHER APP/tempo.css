@@ -1,0 +1,318 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --gainsboro: #dcdcdc;
+    --lightskyblue: #87cefa;
+    --blue: #0000FF;
+}
+
+.background_project {
+    background-color: var(--lightskyblue);
+}
+
+.day_time {
+    position: absolute;
+    z-index: 2;
+    margin-left: 365px;
+    margin-top: 40px;
+    font-family: Arial;
+    font-weight: lighter;
+    color: var(--black);
+}
+.city {
+    position: absolute;
+    z-index: 3;
+    margin-left: 35px;
+    margin-top: 60px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.climate {
+    position: absolute;
+    z-index: 4;
+    margin-top: 95px;
+    margin-left: 35px;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+.temperature {
+    position: absolute;
+    z-index: 5;
+    margin-left: 80px;
+    margin-top: 450px;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 70px;
+}
+
+.maximum {
+    position: absolute;
+    z-index: 6;
+    margin-left: 95px;
+    margin-top: 530px;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.humidity_information {
+    position: absolute;
+    z-index: 6;
+    margin-left: 495px;
+    margin-top: 130px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.speed_information {
+    position: absolute;
+    z-index: 6;
+    margin-left: 685px;
+    margin-top: 130px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.direction_information {
+    position: absolute;
+    z-index: 6;
+    margin-left: 905px;
+    margin-top: 130px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.visibility_information {
+    position: absolute;
+    z-index: 6;
+    margin-left: 485px;
+    margin-top: 310px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.sunrise_information {
+    position: absolute;
+    z-index: 6;
+    margin-left: 710px;
+    margin-top: 310px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.sunset_information {
+    position: absolute;
+    z-index: 6;
+    margin-left: 905px;
+    margin-top: 0px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.background_project {
+    background: cover;
+    background-color: var(--lightskyblue);
+}
+
+.project_time {
+    margin-top: 200px;
+    margin-left: 650px;
+    width: 1000px;
+    height: 600px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gainsboro);
+}
+
+.container_one--info {
+    width: 300px;
+    height: 600px;
+    border-radius: 30px;
+    background-color: var(--white);
+    position: absolute;
+
+}
+
+.search {
+    margin-top: 25px;
+    margin-left: 790px;
+}
+
+.humidity {
+    width: 200px;
+    height: 170px;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 40px;
+    background-color: var(--white);
+    font-family: Arial;
+}
+
+.wind_speed {
+    width: 200px;
+    height: 170px;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 40px;
+    background-color: var(--white);
+}
+
+.wind_direction {
+    width: 200px;
+    height: 170px;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 40px;
+    background-color: var(--white);
+}
+
+.visibility {
+    width: 200px;
+    height: 170px;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 220px;
+    background-color: var(--white);
+}
+
+.sunrise {
+    width: 200px;
+    height: 170px;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 220px;
+    background-color: var(--white);
+}
+
+.sunset {
+    width: 200px;
+    height: 170px;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 220px;
+    background-color: var(--white);
+}
+
+.humidade {
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 47px;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.fast_vento {
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 47px;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.direcao_vento {
+    position: absolute;
+    margin-left: 880px;
+    margin-top: 47px;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.visibilidade {
+    position: absolute;
+    margin-left: 492px;
+    margin-top: 230px;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.sol1 {
+    position: absolute;
+    margin-left: 705px;
+    margin-top: 230px;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.sol2 {
+    position: absolute;
+    margin-left: 917px;
+    margin-top: 230px;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.gota {
+    position: absolute;
+    z-index: 1;
+    width: 60px;
+    margin-left: 1005px;
+    margin-top: 190px;
+}
+
+.vento {
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    margin-left: 1225px;
+    margin-top: 200px;
+}
+
+.bussola {
+    position: absolute;
+    z-index: 1;
+    width: 60px;
+    margin-left: 1430px;
+    margin-top: 190px;
+}
+
+.oculos {
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    margin-left: 1015px;
+    margin-top: 375px;
+}
+
+.cima {
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    margin-left: 1225px;
+    margin-top: 365px;
+}
+
+.baixo {
+    position: absolute;
+    z-index: 1;
+    width: 60px;
+    margin-left: 1430px;
+    margin-top: 370px;
+}

@@ -1,0 +1,207 @@
+.initial_milionaire--secrets {
+    background-size: cover;
+    background-color: black;
+    padding:0 0 100%;
+    font-family: 'Arial';
+    border: none;
+}
+
+.imagem_secrets {
+    text-align: center;
+    padding-top: auto;
+}
+.button_circle--secrets {
+    transform: translateX(2102px) translateY(775px);
+}
+.button_circle {
+    animation: rodando 50s linear infinite;
+}
+.button_play--secrets {
+    background: orange;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(2185px) translateY(600px);
+    box-shadow: inset 0 0 3em orange, 0 0 3em orange;
+    animation: button 2s infinite 0.5s alternate;
+    cursor: pointer;
+}
+
+.button_play {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.waves_secrets {
+    left: 2186px;
+    top: 515px;
+    position: relative;
+}
+
+.waves_secrets::before,
+.waves_secrets::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    animation: ondas 3s linear infinite;
+    border: 1px solid orange;
+    border-radius: 50%;
+}
+
+.waves_secrets::after {
+    animation-delay: 1.5s;
+    top: -80px;
+    position: relative;
+}
+
+.text_secrets {
+    padding-top: 70px;
+    padding-left: 700px;
+}
+
+.title_secrets {
+    color: white;
+    text-align: initial;
+    font-size: 30px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.subtitle_secrets--value {
+    color: orange;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.subtitle_secrets--phrase {
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.button_secrets {
+    padding-left: 730px;
+    padding-top: 30px;
+}
+
+.button_acess {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Arial';
+    background-color: chartreuse;
+    box-shadow: inset 0 0 3em yellowgreen, 0 0 3em yellowgreen;
+    width: 350px;
+    height: 60px;
+    border-radius: 100px;
+    border: none;
+    animation-name: vai_e--vem;
+    animation-name: vai_e--vem2;
+    animation-duration: 2.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+    
+}
+
+.button_acess:hover,
+.button_color:hover {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color:white;
+    background-color: orange;
+    box-shadow: inset 0 0 3em orange, 0 0 3em orange;
+    animation-name: vai_e--vem;
+    animation-name: vai_e--vem2;
+    animation-duration: 2.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ondas {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+        transform-origin: center;
+    }
+
+    100% {
+        transform: scale(6);
+        opacity: 0;
+        transform-origin: center;
+    }
+}
+
+@keyframes button {
+    from {
+        width: 80px;
+        height: 80px;
+    }
+
+    to {
+        width: 90px;
+        height: 90px;
+    }
+    
+}
+
+@keyframes button2 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes rodando {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes vai_e--vem2 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes vai_e--vem {
+    
+    0% {
+        width: 350px;
+        height: 50px;
+    }
+
+    50% {
+        width: 360px;
+        height: 55px;
+    }
+    
+    100% {
+        width: 370px;
+        height: 60px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+}

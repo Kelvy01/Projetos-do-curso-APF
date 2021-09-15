@@ -1,0 +1,140 @@
+:root {
+    --black: #000000;
+    --cyprus: #003142;
+    --white: #ffffff;
+    --half-baked: #86BFD3;
+    --silver: #BCBCBC;
+  }
+
+  .body {
+      margin: 0;
+      padding: 0;
+  }
+
+  .acess_gradie {
+    font-family: "Roboto";
+    background-image: url("./Imagens/Background.png");
+    background-size: cover;
+  }
+
+  .header_acess,
+  .all_input {
+      height: 65vh;
+  }
+
+  .header_acess {
+      background-image: url("./Imagens/iPhone\ Mockup.png");
+      background-size: cover;
+      background-position: center;
+      background-color: var(--cyprus);
+      text-align: center;
+  }
+
+  .title_acess {
+      font-weight: bold;
+      font-size: 35px;
+      padding-top: 40px;
+      color: var(--white);
+  }
+
+  .subtitle_acess {
+      color: var(--half-baked);
+      margin: 10px;
+  }
+
+  .all_input {
+      padding: 0 0 50px;
+      background-color: var(--white);
+  }
+
+  .login_acess {
+      padding: 20px 35px;
+  }
+
+  .email_acess,
+  .password_acess,
+  .checkbox_acess,
+  .register_acess {
+      padding-left: 35px;
+      padding-right: 35px;
+  }
+
+  .email_acess {
+      display: flex;
+      flex-direction: column;
+      font-weight: bold;
+      font-size: 20px;
+      margin: 10px 0;
+  }
+
+  .input_acess {
+      font-size: 14px;
+  }
+
+  .password_acess {
+      display: flex;
+      flex-direction: column;
+      font-weight: bold;
+      font-size: 20px;
+      margin: 10px 0;
+  }
+
+  .checkbox_acess {
+      font-size: 16px;
+  }
+
+  .term_acess {
+      color: var(--cyprus);
+      font-weight: bold;
+      font-size: 18px;
+  }
+
+  .button_acess {
+      width: 100%;
+      height: 50px;
+      background-color: var(--cyprus);
+      border: none;
+      color: var(--white);
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 20px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .acess_gradie {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .header_acess,
+    .all_input {
+      width: 350px;
+      height: 40vh;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .acess_gradie {
+      flex-direction: initial;
+    }
+  
+    .header_acess {
+      border-radius: 6px 0 0 6px;
+    }
+  
+    .all_input {
+      padding-bottom: 0;
+      border-radius: 0 6px 6px 0;
+    }
+  }
+  
+  @media only screen and (min-width: 1080px) {
+    .header_acess,
+    .term_acess {
+      height: 60vh;
+    }
+  }

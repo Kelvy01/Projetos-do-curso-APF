@@ -1,0 +1,113 @@
+:root {
+    --white: #ffffff;
+  }
+
+#millionaire_secrets {
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    padding:0 0 100%;
+    font-family: "Roboto";
+    border: none;
+}
+
+.image {
+    size: 10px;
+    margin: 50px;
+}
+
+.text_secrets {
+    text-align: center;
+}
+
+.title_secrets {
+    color: var(--white);
+    text-align: center;
+    font-size: 23px;
+    margin: 10px;
+}
+
+.subtitle_secrets--value {
+    color: orange;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.subtitle_secrets--phrase {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.video {
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.button_secrets {
+    margin-top: 50px;
+}
+.button_acess {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    background-color: chartreuse;
+    box-shadow: inset 0 0 3em yellowgreen, 0 0 3em yellowgreen;
+    width: 310px;
+    height: 60px;
+    border-radius: 100px;
+    animation-name: vai_e--vem;
+    animation-name: vai_e--vem2;
+    animation-duration: 2.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+    
+}
+
+.button_acess:hover,
+.button_color:hover {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: var(--white);
+    background-color: orange;
+    box-shadow: inset 0 0 3em orange, 0 0 3em orange;
+    animation-name: vai_e--vem;
+    animation-name: vai_e--vem2;
+    animation-duration: 2.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vai_e--vem2 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes vai_e--vem {
+
+    0% {
+        width: 310px;
+        height: 50px;
+    }
+
+    50% {
+        width: 320px;
+        height: 55px;
+    }
+    
+    100% {
+        width: 330px;
+        height: 60px;
+    }
+
+}
