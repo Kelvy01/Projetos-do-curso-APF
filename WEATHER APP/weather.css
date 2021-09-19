@@ -1,0 +1,92 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --gainsboro: #dcdcdc;
+    --lightskyblue: #87cefa;
+    --blue: #0000FF;
+}
+
+.background_project {
+    background-color: var(--lightskyblue);
+    display: flex;
+    justify-content: center;
+}
+
+.project_weather {
+    width: 1130px;
+    height: 600px;
+    margin-top: 80px;
+    border-radius: 30px;
+    background-color: var(--gainsboro);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.container_info {
+    width: 300px;
+    border-radius: 30px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+
+.little_container {
+    width: 230px;
+    height: 220px;
+    margin: 15px;
+    border: 5px solid;
+    border-color: var(--white);
+    border-radius: 10px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    font-family:-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell,'Open Sans';
+    font-weight: normal;
+    font-style: italic;
+}
+
+.measures {
+    font-size: 45px;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+.search {
+    margin: 20px;
+}
+.image {
+    width: 60px;
+    height: 60px;
+    padding-left: 5px;
+    display: flex;
+}
+
+.content {
+    flex-direction: column;
+}
+
+.information {
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+}
+
+.climate {
+    font-weight: normal;
+}
+
+.temperature {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    font-weight: normal;
+    font-size: 70px;
+    padding: 80px;
+}
+
+.maximum {
+    padding-left: 85px;
+    font-weight: lighter;
+}
+
+.day_time {
+    padding-left: 68px;
+}
