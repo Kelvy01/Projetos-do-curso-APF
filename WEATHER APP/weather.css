@@ -31,44 +31,13 @@
     flex-direction: column;
 }
 
-.little_container {
-    width: 230px;
-    height: 220px;
-    margin: 15px;
-    border: 5px solid;
-    border-color: var(--white);
-    border-radius: 10px;
-    background-color: var(--white);
-    display: flex;
-    justify-content: space-evenly;
-    font-family:-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell,'Open Sans';
-    font-weight: normal;
-    font-style: italic;
-}
-
-.measures {
-    font-size: 45px;
-    font-weight: lighter;
-    font-style: normal;
+.information {
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
 }
 
 .search {
     margin: 20px;
-}
-.image {
-    width: 60px;
-    height: 60px;
-    padding-left: 5px;
-    display: flex;
-}
-
-.content {
-    flex-direction: column;
-}
-
-.information {
-    padding: 10px;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
 }
 
 .climate {
@@ -89,4 +58,36 @@
 
 .day_time {
     padding-left: 68px;
+}
+
+.little_container {
+    width: 230px;
+    height: 220px;
+    margin: 15px;
+    border: 5px solid;
+    border-color: var(--white);
+    border-radius: 10px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    font-family:-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell,'Open Sans';
+    font-weight: normal;
+    font-style: italic;
+}
+
+.content {
+    flex-direction: column;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    padding-left: 5px;
+    display: flex;
+}
+
+.measures {
+    font-size: 45px;
+    font-weight: lighter;
+    font-style: normal;
 }
